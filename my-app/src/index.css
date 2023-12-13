@@ -1,8 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 body {
   margin: 0;
   background: #F9F9F9;
   font-family: 'Inter', sans-serif;
 }
+.swiper{
+  width: 100%;
+  padding-bottom: 190px !important;
+}
+.swiper-wrapper{
+  padding-bottom: 20px;
+}
+
