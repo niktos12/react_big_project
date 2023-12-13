@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react_big_project/static/css/main.dba1ab5f.css",
+    "main.js": "/react_big_project/static/js/main.143cd02e.js",
+    "static/js/787.d4aba7ab.chunk.js": "/react_big_project/static/js/787.d4aba7ab.chunk.js",
+    "static/media/cardPres.png": "/react_big_project/static/media/cardPres.29afbab7e498378b181c.png",
+    "static/media/cardPres2.png": "/react_big_project/static/media/cardPres2.73faa6da05b4893b9c83.png",
+    "static/media/SunGlass2.png": "/react_big_project/static/media/SunGlass2.e7b373da722858b12dc0.png",
+    "static/media/SunGlass3.png": "/react_big_project/static/media/SunGlass3.a5938db7808654718643.png",
+    "static/media/SunGlass1.png": "/react_big_project/static/media/SunGlass1.fe5a6e06bf227af981ac.png",
+    "static/media/SunGlass4.png": "/react_big_project/static/media/SunGlass4.c059909b0d1dad06ae17.png",
+    "static/media/NuEvey.jpg": "/react_big_project/static/media/NuEvey.691e0fd527311b0fc9cf.jpg",
+    "static/media/DotOrnament.svg": "/react_big_project/static/media/DotOrnament.0b44c92b70728ba426af44aec357d8a9.svg",
+    "static/media/Logo.svg": "/react_big_project/static/media/Logo.b3a132819c37d4d4278dcf741cd83ab3.svg",
+    "index.html": "/react_big_project/index.html",
+    "static/media/ArrowLeft.svg": "/react_big_project/static/media/ArrowLeft.4d2b5270b2367fb4a580c9bd2b79fce0.svg",
+    "static/media/ArrowRight.svg": "/react_big_project/static/media/ArrowRight.1a4d3c93558113d2cb93ed8b59c1b933.svg",
+    "static/media/Search.svg": "/react_big_project/static/media/Search.af94b0e240f996aa791d9a8e8734d645.svg",
+    "static/media/ethereum.svg": "/react_big_project/static/media/ethereum.7b57619a5dc74f0813ffefe502313667.svg",
+    "main.dba1ab5f.css.map": "/react_big_project/static/css/main.dba1ab5f.css.map",
+    "main.143cd02e.js.map": "/react_big_project/static/js/main.143cd02e.js.map",
+    "787.d4aba7ab.chunk.js.map": "/react_big_project/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba1ab5f.css",
+    "static/js/main.143cd02e.js"
+  ]
+}
