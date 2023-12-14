@@ -1,9 +1,3 @@
-import ArrowPic from '../img/Arrow01.png'
-import cardPres from '../img/cardPres.png'
-import cardPres2 from '../img/cardPres2.png'
-import Dots from '../img/DotOrnament.svg'
-
-
 export function Presentation(){
     return(
         <div className="flex flex-row items-center justify-start gap-20 p-20 pb-40">
@@ -33,11 +27,11 @@ export function Presentation(){
                 </div>
             </div>
             <div className="w-1/2 ml-20">
-                    <img src={cardPres} alt='' className='mb-20 absolute right-80 top-36 ml-20 object-cover mt-20'></img>
-                    <img src={cardPres2} alt='' className='mt-32 right-0 absolute top-[265px]'></img>
+                    <img src='/cardPres.png' alt='' className='mb-20 absolute right-80 top-36 ml-20 object-cover mt-20'></img>
+                    <img src='/cardPres2.png' alt='' className='mt-32 right-0 absolute top-[265px]'></img>
                 
-                <img src={Dots} alt='' className='absolute right-0 top-48'></img>
-                <img src={ArrowPic} alt='' className='absolute right-44 top-60 '></img>
+                <img src='/DotOrnament.svg' alt='' className='absolute right-0 top-48'></img>
+                <img src='/Arrow01.png' alt='' className='absolute right-44 top-60 '></img>
             </div>
             
 
