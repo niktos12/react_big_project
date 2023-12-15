@@ -1,3 +1,5 @@
+import { ImageComponent } from "./Images";
+
 export function Presentation(){
     return(
         <div className="flex flex-row items-center justify-start gap-20 p-20 pb-40">
@@ -27,11 +29,10 @@ export function Presentation(){
                 </div>
             </div>
             <div className="w-1/2 ml-20">
-                    <img src='/cardPres.png' alt='' className='mb-20 absolute right-80 top-36 ml-20 object-cover mt-20'></img>
-                    <img src='/cardPres2.png' alt='' className='mt-32 right-0 absolute top-[265px]'></img>
-                
-                <img src='/DotOrnament.svg' alt='' className='absolute right-0 top-48'></img>
-                <img src='/Arrow01.png' alt='' className='absolute right-44 top-60 '></img>
+                    <ImageComponent path={'/cardPres.png'} alt='' className='mb-20 absolute right-80 top-36 ml-20 object-cover mt-20'></ImageComponent>
+                    <ImageComponent path="/cardPres2.png" alt='' className='mt-32 right-0 absolute top-[265px]'></ImageComponent>
+                    <ImageComponent path="/DotOrnament.svg" alt='' className='absolute right-0 top-48'></ImageComponent>
+                    <ImageComponent path="/Arrow01.png" alt='' className='absolute right-44 top-60 '></ImageComponent>
             </div>
             
 

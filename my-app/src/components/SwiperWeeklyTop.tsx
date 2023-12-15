@@ -1,6 +1,7 @@
 import { Swiper , SwiperSlide , useSwiper } from "swiper/react";
 import { Autoplay , Navigation} from 'swiper/modules';
 import SwiperCore from "swiper";
+import { ImageComponent } from '../components/Images';
 // import  SunGlassFirst  from '../img/SunGlass1.png'
 // import  SunGlassSecond  from '../img/SunGlass2.png'
 // import  SunGlassThird  from '../img/SunGlass3.png'
@@ -22,11 +23,11 @@ export function SwiperWeeklyTop(){
             <div className='bg-[#FCFCFD] flex flex-row p-5 gap-8 rounded-2xl shadow-[0_43px_34px_-25px_rgba(15,15,15,0.12)] absolute
              top-[80%] z-20 mx-auto right-[45%]'>
                 <div className='prev-button cursor-pointer'>
-                    <img src='/ArrowLeft.svg' onClick={() => swiper.slidePrev()} className='hover:scale-125 duration-500 '></img>
+                    <ImageComponent path={'/ArrowLeft.svg'} onClick={() => swiper.slidePrev()} className='hover:scale-125 duration-500 '/>
                 </div>
                 <div className='h-[25px] w-[2px] bg-[#E6E8EC]'></div>
                 <div className='next-button cursor-pointer'>
-                    <img src='/ArrowRight.svg' onClick={() => swiper.slideNext()} className='hover:scale-125 duration-500 '></img>
+                    <ImageComponent path={'/ArrowRight.svg'} onClick={() => swiper.slideNext()} className='hover:scale-125 duration-500 '/>
                 </div>
             </div>
         );
@@ -47,25 +48,18 @@ export function SwiperWeeklyTop(){
                 prevEl: '.prev-button'
             }
         }
-        // autoplay={{
-        //     delay: 400,
-        //     disableOnInteraction: false,
-        //     pauseOnMouseEnter: true
-        // }}
-
-        
         className="flex flex-row items-center gap-4 mt-20 mb-20 pb-20" 
         >
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center p-4 
             shadow-xl">
-                <img src='/SunGlass1.png' className="w-[255px] rounded-2xl  h-[255px] mb-4" alt=""></img>
+                <ImageComponent path={'/SunGlass1.png'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">
                     <p className="text-[#141416] text-xl font-semibold mb-3">Sun-Glass</p>
                     <div className="flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                                <img src='/ethereum.svg' alt=""></img>
+                            <ImageComponent path="/ethereum.svg"></ImageComponent>
                                 <p className="text-base font-medium">1.75</p>
                             </div>  
                         </div>
@@ -76,14 +70,14 @@ export function SwiperWeeklyTop(){
             </SwiperSlide>
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center py-4 
             shadow-xl">
-                <img src='/SunGlass2.png' className="w-[255px] rounded-2xl h-[255px] mb-4"></img>
+                <ImageComponent path={'/SunGlass2.png'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">
                     <p className="text-[#141416] text-xl font-semibold mb-3">Sun-Glass</p>
                     <div className="flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                                <img src='/ethereum.svg' alt=""></img>
+                            <ImageComponent path="/ethereum.svg"></ImageComponent>
                                 <p className="text-base font-medium">1.75</p>
                             </div>  
                         </div>
@@ -93,14 +87,14 @@ export function SwiperWeeklyTop(){
             </SwiperSlide>
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center py-4
             shadow-xl">
-                <img src='/SunGlass3.png' className="w-[255px] rounded-2xl h-[255px] mb-4"></img>
+                <ImageComponent path={'/SunGlass3.png'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">
                     <p className="text-[#141416] text-xl font-semibold mb-3">Sun-Glass</p>
                     <div className="flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                                <img src='/ethereum.svg' alt=""></img>
+                            <ImageComponent path="/ethereum.svg"></ImageComponent>
                                 <p className="text-base font-medium">1.75</p>
                             </div>  
                         </div>
@@ -110,14 +104,14 @@ export function SwiperWeeklyTop(){
             </SwiperSlide>
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center py-4
             shadow-xl">
-                <img src='/SunGlass4.png' className="w-[255px] rounded-2xl h-[255px] mb-4"></img>
+                <ImageComponent path={'/SunGlass4.png'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">
                     <p className="text-[#141416] text-xl font-semibold mb-3">NuEvey</p>
                     <div className="flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                                <img src='/ethereum.svg' alt=""></img>
+                            <ImageComponent path="/ethereum.svg"></ImageComponent>
                                 <p className="text-base font-medium">1.25</p>
                             </div>  
                         </div>
@@ -127,14 +121,14 @@ export function SwiperWeeklyTop(){
             </SwiperSlide>
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center py-4
             shadow-xl"> 
-                <img src='/NuEvey.png' className="w-[255px] h-[255px] rounded-2xl h-[255px] mb-4"></img>
+                <ImageComponent path={'/NuEvey.jpg'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">
                     <p className="text-[#141416] text-xl font-semibold mb-3">NuEvey</p>
                     <div className="flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                                <img src='/ethereum.svg' alt=""></img>
+                            <ImageComponent path="/ethereum.svg"></ImageComponent>
                                 <p className="text-base font-medium">1.25</p>
                             </div>  
                         </div>
@@ -144,14 +138,14 @@ export function SwiperWeeklyTop(){
             </SwiperSlide>  
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center py-4
             shadow-xl">
-                <img src='/SunGlass1.png' className="w-[255px] rounded-2xl h-[255px] mb-4"></img>
+                <ImageComponent path={'/SunGlass1.png'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">
                     <p className="text-[#141416] text-xl font-semibold mb-3">Sun-Glass</p>
                     <div className="flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                                <img src='/ethereum.svg' alt=""></img>
+                            <ImageComponent path="/ethereum.svg"></ImageComponent>
                                 <p className="text-base font-medium">1.75</p>
                             </div>  
                         </div>
