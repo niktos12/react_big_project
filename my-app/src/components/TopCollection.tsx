@@ -1,4 +1,5 @@
 import { ImageComponent } from "./Images";
+import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
 export function TopCollection(){
     return(
         <div className="flex flex-col justify-center items-center mt-40 mb-20">
@@ -119,9 +120,14 @@ export function TopCollection(){
                             <p className="text-[#010101] text-xl font-medium">900</p>
                         </td>
                     </tr>
-                </tbody>    
+                </tbody>
+                
             </table>
-            <div className="flex flex-row justify-center w-full"><p className="mt-20 text-[#ACADB9] text-right text-lg ml-40">Explore All</p></div>
+            <div className="flex flex-row w-full justify-end mb-5"><a className="mt-20 text-[#ACADB9] text-right text-lg mr-40 flex flex-row gap-4" href="#">Explore All
+            <ArrowSmallRightIcon className="w-[25px] h-[25px]"></ArrowSmallRightIcon>
+            </a>
+            
+            </div>
         </div>
     );
 }
