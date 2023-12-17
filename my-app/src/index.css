@@ -1,6 +1,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+:root{
+  --bg-swiper: #F1F1F1;
+}
 body {
   margin: 0;
   background: #F9F9F9;
@@ -42,4 +45,11 @@ body {
 .icon{
   width: 65px;
   height: 65px;
+}
+.dark{
+  background: #1f1f1f !important;
+  color: #fff;
+}
+.dark-theme{
+  background: #1f1f1f !important;
 }
