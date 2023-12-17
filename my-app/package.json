@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://niktos12.github.io/react_big_project",
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,8 +12,10 @@
     "@types/jest": "^27.5.2",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.17",
+    "handy-svg": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
     "react-scripts": "5.0.1",
     "swiper": "^11.0.5",
     "typescript": "^4.9.5",

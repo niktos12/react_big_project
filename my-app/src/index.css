@@ -21,4 +21,25 @@ body {
   background: #1f1f1f;
   border-radius: 20px;
 }
-
+.animate-icons{
+  animation: rotating 2s linear infinite;
+}
+@keyframes rotating{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.not-spin{
+  animation-play-state: paused;
+}
+.animate-spin {
+  animation: spin 2s linear infinite;
+  transform-style: preserve-3d;
+}
+.icon{
+  width: 65px;
+  height: 65px;
+}

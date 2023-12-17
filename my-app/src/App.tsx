@@ -7,7 +7,9 @@ import { TopCollection } from './components/TopCollection';
 import { Marketplace } from './components/Marketplace';
 import { Collector } from './components/Collector';
 import { Community } from './components/Community';
-
+import { Faq } from './components/Faq';
+import { CreateInvite } from './components/CreateInvite';
+import { Footer } from './components/Footer';
 function App() {
   return (
     <div> 
@@ -19,6 +21,9 @@ function App() {
       <Marketplace/>
       <Collector/>
       <Community/>
+      <Faq/>
+      <CreateInvite/>
+      <Footer/>
     </div>
   );
 }

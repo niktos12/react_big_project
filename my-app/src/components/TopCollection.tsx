@@ -1,5 +1,6 @@
 import { ImageComponent } from "./Images";
 import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
+import { FaEthereum } from "react-icons/fa";
 export function TopCollection(){
     return(
         <div className="flex flex-col justify-center items-center mt-40 mb-20">
@@ -25,14 +26,14 @@ export function TopCollection(){
                             </div>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">8,456</p>
                         </td>
                         <td className="">
                             <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">3,5</p>
                         </td>
                         <td className="">
@@ -51,14 +52,14 @@ export function TopCollection(){
                             </div>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">4,780</p>
                         </td>
                         <td className="">
                             <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">7,9</p>
                         </td>
                         <td className="">
@@ -77,14 +78,14 @@ export function TopCollection(){
                             </div>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">8,456</p>
                         </td>
                         <td className="">
                             <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">3,5</p>
                         </td>
                         <td className="">
@@ -103,14 +104,14 @@ export function TopCollection(){
                             </div>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">4,780</p>
                         </td>
                         <td className="">
                             <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
-                        <ImageComponent path="/ethereum.svg"></ImageComponent>
+                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold">7,9</p>
                         </td>
                         <td className="">

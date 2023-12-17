@@ -3,6 +3,7 @@ import { ChartBarSquareIcon } from "@heroicons/react/24/solid";
 import { CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { ImageComponent } from "./Images";
 import { ArrowSmallRightIcon } from "@heroicons/react/24/outline";
+import { FaEthereum } from "react-icons/fa";
 export function Marketplace(){
     return(
         <div className="flex flex-col justify-center items-center">
@@ -24,7 +25,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                                <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -38,7 +39,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -52,7 +53,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -66,7 +67,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -80,7 +81,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -94,7 +95,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -108,7 +109,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
@@ -122,7 +123,7 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <ImageComponent path="/ethereum.svg" className="w-[25px] h-[25px]"></ImageComponent>
+                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
                                 <p className="font-medium text-lg">1.75</p>
                             </div>
                         </div>
