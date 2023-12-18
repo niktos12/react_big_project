@@ -16,7 +16,10 @@ const items: Item[] = [
 const List: React.FC = () => (
     <ul className="gap-3 flex flex-col">
         {items.map((item, index) => (
-            <li className="opacity-[0.7] text-[#12141D] flex flex-row gap-2" key={index}><CheckCircleIcon className="w-[25px] h-[25px] text-[#12141D]"></CheckCircleIcon>{item.text}</li>
+            <li className="opacity-[0.7] text-[#12141D] flex flex-row gap-2 text-theme-change" key={index}>
+                <CheckCircleIcon className="w-[25px] h-[25px] text-[#12141D] text-theme-change"></CheckCircleIcon>
+                {item.text}
+            </li>
         ))}
     </ul>
 );

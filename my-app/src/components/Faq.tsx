@@ -1,18 +1,23 @@
 import { Disclosure } from '@headlessui/react'
 import { XCircleIcon } from '@heroicons/react/24/solid';
-
+import { useEffect, useState } from 'react';
 export function Faq(){
+    const [theme, setTheme] = useState<'light'| 'dark'>('light');
+  useEffect(() => {
+    document.body.className = theme;
+    
+  }, [theme]);
     return(
-        <div className="flex flex-col justify-center items-center mb-40">
-            <h1 className="text-5xl font-semibold text-[#18181B] text-center leading-snug mb-20">Frequently Asked 
+        <div className="flex flex-col justify-center items-center mb-40 mt-40">
+            <h1 className="text-5xl font-semibold text-[#18181B] text-center leading-snug mb-20 text-theme-change">Frequently Asked 
                 <br></br>
                 <span className="text-[#C5C5C5]">Questions</span>
             </h1>
             <Disclosure>
                 {({open}) => (
                 <>
-                    <Disclosure.Button className='flex flex-row justify-between items-center w-[90%] px-20 hover:bg-[#E6E8EC] rounded-2xl'>
-                        <p className='text-2xl text-[#323142] font-semibold'>What is an NFT?</p>
+                    <Disclosure.Button className={`flex flex-row justify-between items-center w-[85%] px-3 hover:bg-[#E6E8EC] rounded-2xl hover-change duration-500`}>
+                        <p className='text-2xl text-[#323142] font-semibold text-theme-change'>What is an NFT?</p>
                         <XCircleIcon className={` w-[35px] h-[35px] ${open ? '' :  'rotate-45 transform'}`}></XCircleIcon>
                     </Disclosure.Button>
                     <Disclosure.Panel className='px-20 py-2 w-[90%]'>
@@ -27,8 +32,8 @@ export function Faq(){
             <Disclosure>
                 {({open}) => (
                     <>
-                        <Disclosure.Button className='flex flex-row justify-between items-center w-[90%] px-20 hover:bg-[#E6E8EC] rounded-2xl'>
-                        <p className='text-2xl text-[#323142] font-semibold'>What can I use NFTs for?</p>
+                        <Disclosure.Button className='flex flex-row justify-between items-center w-[85%] px-3 hover:bg-[#E6E8EC] rounded-2xl hover-change duration-500'>
+                        <p className='text-2xl text-[#323142] font-semibold text-theme-change'>What can I use NFTs for?</p>
                         <XCircleIcon className={` w-[35px] h-[35px] ${open ? '' :  'rotate-45 transform'}`}></XCircleIcon>
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-20 py-2 w-[90%]'>
@@ -43,8 +48,8 @@ export function Faq(){
             <Disclosure>
                 {({open}) => (
                     <>
-                        <Disclosure.Button className='flex flex-row justify-between items-center w-[90%] px-20 hover:bg-[#E6E8EC] rounded-2xl'>
-                        <p className='text-2xl text-[#323142] font-semibold'>What is the difference between an NFT and cryptocurrency?</p>
+                        <Disclosure.Button className='flex flex-row justify-between items-center w-[85%] px-3 hover:bg-[#E6E8EC] rounded-2xl hover-change duration-500'>
+                        <p className='text-2xl text-[#323142] font-semibold text-theme-change'>What is the difference between an NFT and cryptocurrency?</p>
                         <XCircleIcon className={` w-[35px] h-[35px] ${open ? '' :  'rotate-45 transform'}`}></XCircleIcon>
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-20 py-2 w-[90%]'>
@@ -59,8 +64,8 @@ export function Faq(){
             <Disclosure>
                 {({open}) => (
                     <>
-                        <Disclosure.Button className='flex flex-row justify-between items-center w-[90%] px-20 hover:bg-[#E6E8EC] rounded-2xl'>
-                        <p className='text-2xl text-[#323142] font-semibold'>How much is an NFT worth?</p>
+                        <Disclosure.Button className='flex flex-row justify-between items-center w-[85%] px-3 hover:bg-[#E6E8EC] rounded-2xl hover-change duration-500'>
+                        <p className='text-2xl text-[#323142] font-semibold text-theme-change'>How much is an NFT worth?</p>
                         <XCircleIcon className={` w-[35px] h-[35px] ${open ? '' :  'rotate-45 transform'}`}></XCircleIcon>
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-20 py-2 w-[90%]'>
@@ -73,8 +78,8 @@ export function Faq(){
             <Disclosure>
                 {({open}) => (
                     <>
-                        <Disclosure.Button className='flex flex-row justify-between items-center w-[90%] px-20 hover:bg-[#E6E8EC] rounded-2xl'>
-                        <p className='text-2xl text-[#323142] font-semibold'>How do I purchase an NFT on your platform ?</p>
+                        <Disclosure.Button className='flex flex-row justify-between items-center w-[85%] px-3 hover:bg-[#E6E8EC] rounded-2xl hover-change duration-500'>
+                        <p className='text-2xl text-[#323142] font-semibold text-theme-change'>How do I purchase an NFT on your platform ?</p>
                         <XCircleIcon className={` w-[35px] h-[35px] ${open ? '' :  'rotate-45 transform'}`}></XCircleIcon>
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-20 py-2 w-[90%]'>

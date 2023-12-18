@@ -55,8 +55,8 @@ export function SwiperWeeklyTop(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[21px] h-[21px]"></FaEthereum>
-                                <p className="text-base font-medium">1.75</p>
+                            <FaEthereum className="w-[21px] h-[21px] text-[#141416]"></FaEthereum>
+                                <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
                         <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
@@ -73,8 +73,8 @@ export function SwiperWeeklyTop(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[21px] h-[21px]"></FaEthereum>
-                                <p className="text-base font-medium">1.75</p>
+                            <FaEthereum className="w-[21px] h-[21px] text-[#141416]"></FaEthereum>
+                                <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
                         <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
@@ -90,8 +90,8 @@ export function SwiperWeeklyTop(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[21px] h-[21px]"></FaEthereum>
-                                <p className="text-base font-medium">1.75</p>
+                            <FaEthereum className="w-[21px] h-[21px] text-[#141416]"></FaEthereum>
+                                <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
                         <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
@@ -107,8 +107,8 @@ export function SwiperWeeklyTop(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[21px] h-[21px]"></FaEthereum>
-                                <p className="text-base font-medium">1.25</p>
+                            <FaEthereum className="w-[21px] h-[21px] text-[#141416]"></FaEthereum>
+                                <p className="text-base font-medium text-[#141416]">1.25</p>
                             </div>  
                         </div>
                         <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
@@ -124,8 +124,8 @@ export function SwiperWeeklyTop(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[21px] h-[21px]"></FaEthereum>
-                                <p className="text-base font-medium">1.25</p>
+                            <FaEthereum className="w-[21px] h-[21px] text-[#141416]"></FaEthereum>
+                                <p className="text-base font-medium text-[#141416]">1.25</p>
                             </div>  
                         </div>
                         <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
@@ -141,8 +141,8 @@ export function SwiperWeeklyTop(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] font-normal">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[21px] h-[21px]"></FaEthereum>
-                                <p className="text-base font-medium">1.75</p>
+                            <FaEthereum className="w-[21px] h-[21px] text-[#141416]"></FaEthereum>
+                                <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
                         <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>

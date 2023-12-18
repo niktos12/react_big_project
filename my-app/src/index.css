@@ -3,6 +3,8 @@
 @import 'tailwindcss/utilities';
 :root{
   --bg-swiper: #F1F1F1;
+  --scrollbar-black-theme: #1f1f1f;
+  --scrollbar-light-theme: #F9F9F9;
 }
 body {
   margin: 0;
@@ -19,10 +21,14 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
 }
- 
+
+
 ::-webkit-scrollbar-thumb {
-  background: #1f1f1f;
+  background: var(--scrollbar-black-theme) !important;
   border-radius: 20px;
+}
+ body.dark::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-light-theme) !important;
 }
 .animate-icons{
   animation: rotating 2s linear infinite;
@@ -39,8 +45,20 @@ body {
   animation-play-state: paused;
 }
 .animate-spin {
-  animation: spin 2s linear infinite;
+  animation: spin 10s linear infinite;
   transform-style: preserve-3d;
+}
+.animate-spin-reverse{
+  animation: reverse-spin 10s linear infinite;
+  transform-style: preserve-3d;
+}
+@keyframes reverse-spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
 }
 .icon{
   width: 65px;
@@ -52,4 +70,11 @@ body {
 }
 .dark-theme{
   background: #1f1f1f !important;
+}
+.dark-text{
+  color: #fff !important;
+}
+
+.dark-hover:hover{
+  background-color: #615c5c !important;
 }

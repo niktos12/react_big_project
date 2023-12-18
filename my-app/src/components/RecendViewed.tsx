@@ -18,7 +18,7 @@ export function RecentViewed(){
                 </div>
                 <div className="flex flex-col gap-1">
                     <div className="flex flex-row">
-                        <FaEthereum className="w-[20px] h-[18px]"></FaEthereum>
+                        <FaEthereum className="w-[20px] h-[18px] text-[#141416]"></FaEthereum>
                         <p className="text-[#141416] font-semibold">8,456</p>
                     </div>
                     <p className="text-[#10C352] text-xs ml-3">+23,00%</p>
@@ -32,7 +32,7 @@ export function RecentViewed(){
                 </div>
                 <div className="flex flex-col gap-1">
                     <div className="flex flex-row">
-                    <FaEthereum className="w-[20px] h-[18px]"></FaEthereum>
+                    <FaEthereum className="w-[20px] h-[18px] text-[#141416]"></FaEthereum>
                         <p className="text-[#141416] font-semibold">5,327</p>
                     </div>
                     <p className="text-[#E23333] text-xs ml-3">-32,01%</p>

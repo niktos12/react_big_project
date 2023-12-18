@@ -9,9 +9,9 @@ export function Marketplace(){
 
     return(
         <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[#141416] text-4xl font-semibold mb-16">Explore Marketplace</h1>
+            <h1 className="text-[#141416] text-4xl font-semibold mb-16 text-theme-change">Explore Marketplace</h1>
             <div className="flex flex-row gap-5 mb-20">
-                <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6" >All</button>
+                <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6 text-[#1A202C]" >All</button>
                 <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6 flex flex-row gap-2 text-[#1A202C]">
                     <QueueListIcon className="w-[25px] h-[25px]"></QueueListIcon>Category</button>
                 <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6 flex flex-row gap-2 text-[#1A202C]">
@@ -27,11 +27,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                                <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.75</p>
+                                <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.75</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -41,11 +41,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.75</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.75</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -55,11 +55,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.75</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.75</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -69,11 +69,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.25</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.25</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -83,11 +83,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.75</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.75</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -97,11 +97,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.25</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.25</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -111,11 +111,11 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.75</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.75</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
@@ -125,16 +125,16 @@ export function Marketplace(){
                         <div className="flex flex-col">
                             <p className="text-[#94A3B8] text-base">Current bid</p>
                             <div className="flex flex-row">
-                            <FaEthereum className="w-[20px] h-[20px]"></FaEthereum>
-                                <p className="font-medium text-lg price" id="cost">1.75</p>
+                            <FaEthereum className="w-[20px] h-[20px] text-[#141416]"></FaEthereum>
+                                <p className="font-medium text-lg price text-[#141416]" id="cost">1.75</p>
                             </div>
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8 text-theme-change bg-theme-change">place bid</button>
                     </div>
                 </div>
             </div>
             <div className="flex flex-row w-full justify-end mt-5">
-                <p className="flex flex-row gap-4 mb-20 text-[#ACADB9] text-right text-lg mr-40">Explore All <ArrowSmallRightIcon className="w-[25px] h-[25px]"></ArrowSmallRightIcon></p>
+                <p className="flex flex-row gap-4 mb-20 text-[#ACADB9] text-right text-lg mr-40 cursor-pointer">Explore All <ArrowSmallRightIcon className="w-[25px] h-[25px]"></ArrowSmallRightIcon></p>
             </div>
             <div className="border-b-2 border-[#E6E8EC] w-[90%] mb-20"></div>
         </div>

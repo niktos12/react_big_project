@@ -10,7 +10,14 @@ import { Community } from './components/Community';
 import { Faq } from './components/Faq';
 import { CreateInvite } from './components/CreateInvite';
 import { Footer } from './components/Footer';
+import { useState, useEffect } from 'react';
 function App() {
+  const [theme, setTheme] = useState<'light'| 'dark'>('light');
+
+  useEffect(() => {
+    document.body.className = theme;
+    
+  }, [theme]);
   return (
     <div> 
       <Header />
