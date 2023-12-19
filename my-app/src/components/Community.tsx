@@ -1,7 +1,7 @@
 import { ImageComponent } from "./Images";
 export function Community(){
     return(
-        <div className="flex flex-col justify-center items-center h-[1000px] overflow-hidden relative">
+        <div className="flex flex-col justify-center items-center h-[1100px] overflow-hidden relative">
             <div 
                 className="border-2 border-[#D2D2D2] rounded-full max-w-[1061px] max-h-[1061px] w-full h-full 
                 flex flex-col justify-center items-center absolute animate-spin 3xl:max-w-[800px] 3xl:max-h-[800px]"

@@ -67,15 +67,15 @@ body {
   color: #fff;
 }
 .dark-theme{
-  background: #1f1f1f !important;
+  background: #1f1f1f;
 }
 .dark-text{
-  color: #fff !important;
+  color: #fff;
 }
 .dark-btn{
-  background: #FFFFFF !important;
+  background: #FFFFFF;
   color: #141416;
 }
 .dark-hover:hover{
-  background-color: #615c5c !important;
+  background-color: #615c5c;
 }
