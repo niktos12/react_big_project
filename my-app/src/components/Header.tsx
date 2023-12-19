@@ -23,22 +23,14 @@ export function Header(){
         }
     }, [] );
     const ToggleTheme = () =>{ 
-        setTheme(theme === 'light' ? 'dark' : 'light'); 
+        setTheme(theme === 'dark' ? 'light' : 'dark'); 
     }
     useEffect(() => {
         document.body.className = theme;
-        if(theme === 'dark'){
-            document.querySelector('.swiper-bg-change')?.classList.toggle('dark-theme')
-            document.querySelectorAll('.text-theme-change').forEach(el => el.classList.toggle('dark-text'));
-            document.querySelectorAll('.hover-change').forEach(el => el.classList.toggle('dark-hover'));
-            document.querySelectorAll('.btn-theme').forEach(el => el.classList.toggle('dark-btn'));
-        }else{
-            document.querySelector('.swiper-bg-change')?.classList.toggle('dark-theme')
-            document.querySelectorAll('.text-theme-change').forEach(el => el.classList.toggle('dark-text'));
-            document.querySelectorAll('.hover-change').forEach(el => el.classList.toggle('dark-hover'));
-            document.querySelectorAll('.btn-theme').forEach(el => el.classList.toggle('dark-btn'));
-        }
-        
+        document.querySelector('.swiper-bg-change')?.classList.toggle('dark-theme')
+        document.querySelectorAll('.text-theme-change').forEach(el => el.classList.toggle('dark-text'));
+        document.querySelectorAll('.hover-change').forEach(el => el.classList.toggle('dark-hover'));
+        document.querySelectorAll('.btn-theme').forEach(el => el.classList.toggle('dark-btn'));
     }, [theme])
     return(
         <div className={`  flex flex-row justify-between items-center gap-28 py-11 px-20 sticky top-0 z-50 2xl:gap-20`} 
