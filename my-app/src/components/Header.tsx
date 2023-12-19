@@ -4,6 +4,7 @@ import { SlMagnifier } from "react-icons/sl";
 import { FaMoon } from "react-icons/fa";
 import { FaSun } from "react-icons/fa";
 import { getBackgroundColor } from './GetBgHeader';
+import { CgMenu } from "react-icons/cg";
 
 
 export function Header(){
@@ -29,11 +30,12 @@ export function Header(){
         document.querySelector('.swiper-bg-change')?.classList.toggle('dark-theme')
         document.querySelectorAll('.text-theme-change').forEach(el => el.classList.toggle('dark-text'));
         document.querySelectorAll('.hover-change').forEach(el => el.classList.toggle('dark-hover'));
+        document.querySelectorAll('.btn-theme').forEach(el => el.classList.toggle('dark-btn'));
     }, [theme])
     return(
-        <div className={`  flex flex-row justify-between items-center gap-28 py-11 px-20 sticky top-0 z-50 `} 
+        <div className={`  flex flex-row justify-between items-center gap-28 py-11 px-20 sticky top-0 z-50 2xl:gap-20`} 
         style={{backgroundColor , transition: scrolled === 'scrolled' ? 'background-color 500ms' : 'none'}}>
-            <div className='flex flex-row gap-12 items-center' >
+            <div className='flex flex-row gap-12 items-center 2xl:gap-8'>
                 <ImageComponent path={`${theme === 'light' ? '/Logo.svg' : '/Wave.svg'}`} className='w-[53px] h-[53px]'></ImageComponent>
                 <a href="#" className='text-lg text-color font-medium uppercase'>Discover</a>
                 <a href="#" className='text-lg text-color font-medium uppercase'>Creators</a>
@@ -44,11 +46,15 @@ export function Header(){
                 {theme === 'light' ? <FaMoon className={`w-[23px] h-[23px] cursor-pointer mr-6`} onClick={ToggleTheme}></FaMoon> :
                 <FaSun className={`w-[23px] h-[23px] cursor-pointer mr-6 text-[#F9F9F9]`} onClick={ToggleTheme}></FaSun>}
                 
-                <SlMagnifier className='absolute ml-14 w-[23px] h-[23px] text-[#9D9D9D]'></SlMagnifier>
-                <input type='text' placeholder='Search Art Work / Creator' className={`px-12 py-4 bg-[#EDEDED] input-text rounded-lg text-lg ${theme === 'light' ? 'text-[#141416]' : 'text-[#141416]'}`}></input>
-                <button className={`bg-[#141416] text-white text-lg uppercase py-4 px-6 rounded-2xl ml-6`}>Connect wallet</button>
+                <SlMagnifier className='x:hidden absolute ml-14 w-[23px] h-[23px] text-[#9D9D9D]'></SlMagnifier>
+                <input type='text' placeholder='Search Art Work / Creator' 
+                className={`x:hidden px-12 py-4 bg-[#EDEDED] input-text rounded-lg text-lg ${theme === 'light' ? 'text-[#141416]' : 'text-[#141416]'}`}></input>
+                <button className={`bg-[#141416] text-white text-lg uppercase py-4 px-6 rounded-2xl ml-6 xl:text-base`}>Connect wallet</button>
+                <CgMenu className={`w-[31px] h-[23px] cursor-pointer ${theme === 'light' ? 'text-[#141416]' : 'text-[#F9F9F9]'} hidden`} onClick={() => setOpen(!open)}></CgMenu>
             </div>
-            {open && <p>Открыт</p>}
+            {open && <div className=''>
+
+                </div>}
         </div>
     );
 }

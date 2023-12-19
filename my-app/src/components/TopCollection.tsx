@@ -10,7 +10,7 @@ export function TopCollection(){
                     <tr className="flex flex-row gap-[80px] mb-8">
                         <th className="mr-24 text-[#93989A] text-xl">Collection</th>
                         <th className="text-[#93989A] text-xl">Volume</th>
-                        <th className="mr-2 ml-14 text-[#93989A] text-xl">24h %</th>
+                        <th className="mr-2 ml-14 text-[#93989A] text-xl x:hidden x:ml-0">24h %</th>
                         <th className="text-[#93989A] text-xl">Floor Price</th>
                         <th className="text-[#93989A] text-xl">Owners</th>
                         <th className="text-[#93989A] text-xl">Items</th>
@@ -25,12 +25,16 @@ export function TopCollection(){
                                 <p className="text-[#64748B] text-xl">By Alex</p>
                             </div>
                         </td>
-                        <td className="flex flex-row">
-                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
-                            <p className="text-[#141416] text-xl font-semibold text-theme-change">8,456</p>
+                        <td className="flex flex-row x:flex-col">
+                            <div className="flex flex-row">
+                                <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
+                                <p className="text-[#141416] text-xl font-semibold text-theme-change">8,456</p>
+                            </div>
+                            <p className="hidden x:flex text-[#10C352] text-base font-medium ml-1">+ 27.78%</p>
+                        
                         </td>
-                        <td className="">
-                            <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
+                        <td className="x:hidden">
+                            <p className="text-[#10C352] text-xl font-medium x:hidden">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
                         <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
@@ -51,12 +55,16 @@ export function TopCollection(){
                                 <p className="text-[#64748B] text-xl">By Alex</p>
                             </div>
                         </td>
-                        <td className="flex flex-row">
-                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
-                            <p className="text-[#141416] text-xl font-semibold text-theme-change">4,780</p>
+                        <td className="flex flex-row x:flex-col">
+                            <div className="flex flex-row">
+                                <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
+                                <p className="text-[#141416] text-xl font-semibold text-theme-change">4,780</p>
+                            </div>
+                            <p className="hidden x:flex text-[#10C352] text-base font-medium ml-1">+ 27.78%</p>
+                        
                         </td>
-                        <td className="">
-                            <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
+                        <td className="x:hidden">
+                            <p className="text-[#10C352] text-xl font-medium x:hidden">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
                         <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
@@ -77,12 +85,16 @@ export function TopCollection(){
                                 <p className="text-[#64748B] text-xl">By Alex</p>
                             </div>
                         </td>
-                        <td className="flex flex-row">
-                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
-                            <p className="text-[#141416] text-xl font-semibold text-theme-change">8,456</p>
+                        <td className="flex flex-row x:flex-col">
+                            <div className="flex flex-row">
+                                <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
+                                <p className="text-[#141416] text-xl font-semibold text-theme-change">8,456</p>
+                            </div>
+                            <p className="hidden x:flex text-[#10C352] text-base font-medium ml-1">+ 27.78%</p>
+                        
                         </td>
-                        <td className="">
-                            <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
+                        <td className="x:hidden">
+                            <p className="text-[#10C352] text-xl font-medium x:hidden">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
                         <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
@@ -103,12 +115,15 @@ export function TopCollection(){
                                 <p className="text-[#64748B] text-xl">By Alex</p>
                             </div>
                         </td>
-                        <td className="flex flex-row">
-                        <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
+                        <td className="flex flex-row x:flex-col">
+                            <div className="flex flex-row">
+                                <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>
                             <p className="text-[#141416] text-xl font-semibold text-theme-change">4,780</p>
+                            </div>
+                            <p className="hidden x:flex text-[#10C352] text-base font-medium ml-1">+ 27.78%</p>
                         </td>
-                        <td className="">
-                            <p className="text-[#10C352] text-xl font-medium">+ 27.78%</p>
+                        <td className="x:hidden">
+                            <p className="text-[#10C352] text-xl font-medium x:hidden">+ 27.78%</p>
                         </td>
                         <td className="flex flex-row">
                         <FaEthereum className="w-[22px] h-[21px]"></FaEthereum>

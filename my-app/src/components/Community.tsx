@@ -1,44 +1,46 @@
 import { ImageComponent } from "./Images";
 export function Community(){
     return(
-        <div className="flex flex-col justify-center items-center h-[1000px] overflow-hidden">
+        <div className="flex flex-col justify-center items-center h-[1000px] overflow-hidden relative">
             <div 
-                className="border-2 border-[#D2D2D2] rounded-full max-w-[1061px] max-h-[1061px] w-full h-full flex flex-col justify-center items-center absolute animate-spin "
+                className="border-2 border-[#D2D2D2] rounded-full max-w-[1061px] max-h-[1061px] w-full h-full 
+                flex flex-col justify-center items-center absolute animate-spin 3xl:max-w-[800px] 3xl:max-h-[800px]"
             >
                 <ImageComponent 
                     path="/iconForCircle.png" 
-                    className="absolute top-[25px] left-[255px]"
+                    className="absolute top-[25px] left-[255px] 3xl:top-[-15px]"
                 />
                 <ImageComponent 
                     path="/iconForCircle2.png" 
-                    className="absolute top-[150px] right-[105px] "
+                    className="absolute top-[150px] right-[105px] 3xl:top-[75px]"
                 />
                 <ImageComponent 
                     path="/iconForCircle3.png" 
-                    className="absolute bottom-[145px] right-[100px]"
+                    className="absolute bottom-[145px] right-[100px] 3xl:bottom-[65px]"
                 />
                 <ImageComponent 
                     path="/iconForCircle4.png" 
-                    className="absolute bottom-[180px] left-[85px]"
+                    className="absolute bottom-[180px] left-[85px] 3xl:bottom-[100px]"
                 />
             </div>
                 <div 
-                    className="border-2 border-[#D2D2D2] rounded-full max-w-[831px] max-h-[831px] w-full h-full flex flex-col gap-7 justify-center items-center absolute animate-spin-reverse"
+                    className="border-2 border-[#D2D2D2] rounded-full max-w-[831px] max-h-[831px] w-full h-full 
+                    flex flex-col gap-7 justify-center items-center absolute animate-spin-reverse 3xl:max-w-[600px] 3xl:max-h-[600px]"
                 >
                     <ImageComponent 
                         path="/iconForCircle5.png" 
-                        className="absolute top-[40px] right-[160px]"/>
+                        className="absolute top-[40px] right-[160px] 3xl:top-[-5px]"/>
                     <ImageComponent 
                         path="/iconForCircle6.png" 
-                        className="absolute bottom-[320px] right-[-30px]"
+                        className="absolute bottom-[320px] right-[-25px]"
                         />
                     <ImageComponent 
                         path="/iconForCircle7.png" 
-                        className="absolute bottom-[35px] right-[165px]"
+                        className="absolute bottom-[35px] right-[165px] 3xl:bottom-[-5px]"
                         />
                     <ImageComponent 
                         path="/iconForCircle8.png" 
-                        className="absolute top-[150px] left-[50px]"
+                        className="absolute top-[150px] left-[50px] 3xl:top-[70px]"
                         />
                 </div>
                     <div className="not-animate flex flex-col justify-center items-center gap-7">
@@ -51,7 +53,7 @@ export function Community(){
                             Our vibrant community is full of collectors, artists, and enthusiasts
                             <br></br> who share a passion for one-of-a-kind digital.
                         </p>
-                        <button className="mt-2 bg-black text-white font-medium py-4 px-6 rounded-xl cursor-pointer">Join  Our Community</button>
+                        <button className="mt-2 bg-black text-white py-4 px-6 rounded-xl cursor-pointer btn-theme font-semibold">Join  Our Community</button>
                     </div>
         </div>
     );

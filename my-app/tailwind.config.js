@@ -5,10 +5,12 @@ module.exports = {
   ],
   theme: {
     screens: {
-      '2xl': {'max': '1535px'},
+      '3xl': {'max': '1530px'},
+      '2xl': {'max': '1400px'},
       // => @media (max-width: 1535px) { ... }
 
       'xl': {'max': '1279px'},
+      'x':{'max': '1199px'},
       // => @media (max-width: 1279px) { ... }
 
       'lg': {'max': '1023px'},

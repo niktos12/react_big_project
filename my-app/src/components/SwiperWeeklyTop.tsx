@@ -41,9 +41,18 @@ export function SwiperWeeklyTop(){
         navigation={
             {
                 nextEl: '.next-button',
-                prevEl: '.prev-button'
+                prevEl: '.prev-button',
             }
+        
         }
+        breakpoints={{
+            1401:{
+                slidesPerView: 4.5
+            },
+            1025:{
+                slidesPerView: 3.5
+            }
+        }}
         className="flex flex-row items-center gap-4 mt-20 mb-20 pb-20" 
         >
             <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center p-4 

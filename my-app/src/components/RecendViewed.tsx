@@ -4,7 +4,7 @@ import { BsThreeDots } from "react-icons/bs";
 export function RecentViewed(){
     return(
         <div className="absolute flex flex-col bg-white border border-[#EDF2F7] p-6 rounded-2xl gap-5 right-[200px] top-[1570px]
-        shadow-[10px_10px_50px_0_rgba(20,20,22,0.10)]">
+        shadow-[10px_10px_50px_0_rgba(20,20,22,0.10)] xl:right-[75px] xl:top-[1600px] x:hidden">
             <div className="flex flex-row justify-between items-center">
                 <h1 className="text-[#1A202C] text-xl font-semibold">Recent Viewed</h1>
                 <BsThreeDots className="w-[20px] h-[20px] text-[#CBD5E0] hover:text-[#1A202C] duration-500
