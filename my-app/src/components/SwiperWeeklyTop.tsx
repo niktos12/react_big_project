@@ -15,7 +15,7 @@ export function SwiperWeeklyTop(){
         const swiper = useSwiper();
         return(
             <div className='bg-[#FCFCFD] flex flex-row p-5 gap-8 rounded-2xl shadow-[0_43px_34px_-25px_rgba(15,15,15,0.12)] absolute
-             top-[80%] z-20 mx-auto right-[45%]'>
+             top-[80%] z-20 mx-auto right-[45%] lg:right-[40%] sm:right-[35%] xm:right-[30%]'>
                 <div className='prev-button cursor-pointer'>
                     <HiOutlineArrowNarrowLeft onClick={() => swiper.slidePrev()} className='hover:scale-[1.15] duration-500 w-[27px] h-[27px] text-[#929292]
                     hover:text-[#23262F]'/>
@@ -49,13 +49,28 @@ export function SwiperWeeklyTop(){
             1401:{
                 slidesPerView: 4.5
             },
-            1025:{
+            1005:{
                 slidesPerView: 3.5
+            },
+            711:{
+                slidesPerView: 2.5
+            },
+            568:{
+                slidesPerView: 2
+            },
+            480:{
+                slidesPerView: 1.7
+            },
+            420:{
+                slidesPerView: 1.5
+            },
+            300:{
+                slidesPerView: 1.2
             }
         }}
         className="flex flex-row items-center gap-4 mt-20 mb-20 pb-20" 
         >
-            <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center p-4 
+            <SwiperSlide style={{width: '300px'}} className="rounded-2xl bg-white !flex flex-col justify-center items-center py-4 
             shadow-xl">
                 <ImageComponent path={'/SunGlass1.png'} alt="" className="w-[255px] rounded-2xl  h-[255px] mb-4"/>
                 <div className="flex flex-col flex-start items-start w-[240px]">

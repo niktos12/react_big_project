@@ -16,10 +16,14 @@ module.exports = {
       'lg': {'max': '1023px'},
       // => @media (max-width: 1023px) { ... }
 
-      'md': {'max': '767px'},
+      'md': {'max': '878px'},
       // => @media (max-width: 767px) { ... }
 
-      'sm': {'max': '639px'},
+      'sm': {'max': '784px'},
+      'm':{'max': '650px'},
+      'xm':{'max': '500px'},
+      'xs':{'max':'400px'},
+      
       // => @media (max-width: 639px) { ... }
     },
     extend: {

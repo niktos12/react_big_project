@@ -14,7 +14,7 @@ export function Marketplace(){
     return(
         <div className="flex flex-col justify-center items-center">
             <h1 className="text-[#141416] text-4xl font-semibold mb-16 text-theme-change">Explore Marketplace</h1>
-            <div className="flex flex-row gap-5 mb-20">
+            <div className="flex flex-row gap-5 mb-20 m:grid m:grid-cols-2 ">
                 <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6 text-[#1A202C]" >All</button>
                 <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6 flex flex-row gap-2 text-[#1A202C]">
                     <QueueListIcon className="w-[25px] h-[25px]"></QueueListIcon>Category</button>
@@ -23,7 +23,7 @@ export function Marketplace(){
                 <button className="border-[2.2px] bg-[#F9F9F9] rounded-xl border-[#141416] p-4 px-6 flex flex-row gap-2 text-[#1A202C]">
                     <CurrencyDollarIcon className="w-[25px] h-[25px]"></CurrencyDollarIcon>Price</button>
             </div>
-            <div className="grid grid-cols-[repeat(4,285px)] gap-10 gap-y-16 mb-20 3xl:grid-cols-[repeat(3,285px)]">
+            <div className="grid grid-cols-[repeat(4,285px)] gap-10 gap-y-16 mb-20 3xl:grid-cols-[repeat(3,285px)] lg:grid-cols-[repeat(2,285px)] m:grid-cols-[repeat(1,285px)]">
                 <div className="bg-white rounded-3xl flex flex-col p-4 gap-4 shadow-2xl card">
                     <ImageComponent path="/SunGlass1.png" className="rounded-2xl h-[255px]"></ImageComponent>
                     <h2 className="text-[#141416] text-xl font-semibold">Sun-Glass</h2>
@@ -145,7 +145,8 @@ export function Marketplace(){
             <button className="hidden 2xl:flex bg-[#141416] text-white text-base font-semibold py-4 px-8 rounded-2xl cursor-pointer btn-theme
             " onClick={() => HandleShow()}>{show ? 'Hide' : 'Show All'}</button>
             <div className="flex flex-row w-full justify-end mt-5">
-                <p className="flex flex-row gap-4 mb-20 text-[#ACADB9] text-right text-lg mr-40 cursor-pointer">Explore All <ArrowSmallRightIcon className="w-[25px] h-[25px]"></ArrowSmallRightIcon></p>
+                <p className="flex flex-row gap-4 mb-20 text-[#ACADB9] text-right text-lg mr-40 cursor-pointer
+                sm:mr-10 xl:mt-5">Explore All <ArrowSmallRightIcon className="w-[25px] h-[25px]"></ArrowSmallRightIcon></p>
             </div>
             <div className="border-b-2 border-[#E6E8EC] w-[90%] mb-20"></div>
         </div>

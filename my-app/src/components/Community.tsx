@@ -43,7 +43,7 @@ export function Community(){
                         className="absolute top-[150px] left-[50px] 3xl:top-[70px]"
                         />
                 </div>
-                    <div className="not-animate flex flex-col justify-center items-center gap-7">
+                    <div className="not-animate flex flex-col justify-center items-center gap-7 z-10">
                         <h1 className="text-[#18181B] text-4xl font-bold text-center text-theme-change">Join The 
                             <span className="text-[#C5C5C5]">
                                 <br></br>Community

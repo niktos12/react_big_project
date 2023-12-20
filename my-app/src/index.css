@@ -79,3 +79,6 @@ body {
 .dark-hover:hover{
   background-color: #615c5c !important;
 }
+.dark-border{
+  border-color: #F1F1F1 !important;
+}
