@@ -4,7 +4,7 @@ export function Community(){
         <div className="flex flex-col justify-center items-center h-[1100px] overflow-hidden relative">
             <div 
                 className="border-2 border-[#D2D2D2] rounded-full max-w-[1061px] max-h-[1061px] w-full h-full 
-                flex flex-col justify-center items-center absolute animate-spin 3xl:max-w-[800px] 3xl:max-h-[800px]"
+                flex flex-col justify-center items-center absolute animate-spin 3xl:w-[800px] 3xl:h-[800px]"
             >
                 <ImageComponent 
                     path="/iconForCircle.png" 
@@ -25,7 +25,7 @@ export function Community(){
             </div>
                 <div 
                     className="border-2 border-[#D2D2D2] rounded-full max-w-[831px] max-h-[831px] w-full h-full 
-                    flex flex-col gap-7 justify-center items-center absolute animate-spin-reverse 3xl:max-w-[600px] 3xl:max-h-[600px]"
+                    flex flex-col gap-7 justify-center items-center absolute animate-spin-reverse 3xl:w-[600px] 3xl:h-[600px]"
                 >
                     <ImageComponent 
                         path="/iconForCircle5.png" 

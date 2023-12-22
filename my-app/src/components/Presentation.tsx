@@ -9,7 +9,7 @@ export function Presentation(){
         document.body.className = theme;
     }, [theme])
     return(
-        <div className="flex flex-row items-center justify-start gap-20 p-20 pb-40 x:flex-col xm:p-5">
+        <div className="flex flex-row items-center justify-start gap-20 p-20 pb-40 x:flex-col xm:p-5" id="discover">
             <div className="flex flex-col items-start gap-2 w-1/2 pr-20 x:w-full x:pr-0 x:items-center x:text-center">
                 <div className="h-[1px] opacity-20 w-[138px] bg-[#201F1F] mb-0.5"></div>
                 <h1 className={`capitalize text-6xl font-semibold mb-1.5 text-theme-change`}>Discover And Create NFTs</h1>

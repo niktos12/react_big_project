@@ -3,7 +3,7 @@ import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
 import { FaEthereum } from "react-icons/fa";
 export function TopCollection(){
     return(
-        <div className="flex flex-col justify-center items-center mt-40 mb-20">
+        <div className="flex flex-col justify-center items-center mt-40 mb-20" id="creators">
             <h1 className="#141416 text-4xl font-semibold mb-20">Top Collection</h1>
             <table>
                 <thead>

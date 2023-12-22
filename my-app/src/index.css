@@ -82,3 +82,6 @@ body {
 .dark-border{
   border-color: #F1F1F1 !important;
 }
+html{
+  scroll-behavior: smooth;
+}
