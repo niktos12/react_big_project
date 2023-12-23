@@ -76,8 +76,13 @@ body {
   background: #FFFFFF !important;
   color: #141416;
 }
+.hover-change:hover{
+  background-color: #E6E8EC !important;
+  color: #141416;
+}
 .dark-hover:hover{
   background-color: #615c5c !important;
+  color: #fff;
 }
 .dark-border{
   border-color: #F1F1F1 !important;

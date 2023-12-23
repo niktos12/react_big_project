@@ -19,10 +19,10 @@ export function Footer(){
                     
                 </div>
                 <div className="flex flex-row gap-16 md:flex-col md:gap-7 md:mt-10">
-                    <a href="#" className="font-medium text-[#B9B9B9] md:uppercase">Privacy Policy</a>
-                    <a href="#" className="font-medium text-[#B9B9B9] md:uppercase">Term & Conditions</a>
-                    <a href="#" className="font-medium text-[#B9B9B9] md:uppercase">About Us</a>
-                    <a href="#" className="font-medium text-[#B9B9B9] md:uppercase">Contact</a>
+                    <a className="font-medium text-[#B9B9B9] md:uppercase hover:underline">Privacy Policy</a>
+                    <a className="font-medium text-[#B9B9B9] md:uppercase hover:underline">Term & Conditions</a>
+                    <a className="font-medium text-[#B9B9B9] md:uppercase hover:underline">About Us</a>
+                    <a className="font-medium text-[#B9B9B9] md:uppercase hover:underline">Contact</a>
                 </div>
             </div>
             <div className="h-[1px] w-full opacity-25 bg-[#818181] my-6 mb-10"></div>

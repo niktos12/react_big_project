@@ -7,7 +7,7 @@ export function Collector(){
             <div className="flex flex-col gap-11 items-start mt-12">
                 <h1 className="text-4xl text-[#18181B] font-semibold text-theme-change"><span className="text-[#C5C5C5]">Just Unleash -</span><br></br>Your Inner Collector</h1>
                 <List/>
-                <button className="flex flex-row bg-black text-white font-medium rounded-xl py-4 px-6 gap-3 mt-5 btn-theme">Explore More
+                <button className="hover-change duration-500 flex flex-row bg-black text-white font-medium rounded-xl py-4 px-6 gap-3 mt-5 btn-theme">Explore More
                     <ArrowSmallRightIcon className="w-[25px] h-[25px]"></ArrowSmallRightIcon>
                 </button>
             </div>

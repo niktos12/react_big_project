@@ -109,7 +109,7 @@ export function Header(){
                         onClick={() => setOpen(!open)}></CgMenu>
                 </div>
                 <button 
-                    className={`bg-[#141416] text-white text-lg uppercase py-4 px-6 rounded-2xl ml-6 xl:text-base sm:hidden`}
+                    className={`hover-change duration-500 bg-[#141416] text-white text-lg uppercase py-4 px-6 rounded-2xl ml-6 xl:text-base sm:hidden`}
                 >Connect wallet</button>
                 
             </div>

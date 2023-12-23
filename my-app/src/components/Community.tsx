@@ -28,7 +28,7 @@ export function Community(){
                     flex flex-col gap-7 justify-center items-center absolute animate-spin-reverse 3xl:w-[600px] 3xl:h-[600px]"
                 >
                     <ImageComponent 
-                        path="/iconForCircle5.png" 
+                        path="/iconForCircle5.png"
                         className="absolute top-[40px] right-[160px] 3xl:top-[-5px]"/>
                     <ImageComponent 
                         path="/iconForCircle6.png" 
@@ -53,7 +53,7 @@ export function Community(){
                             Our vibrant community is full of collectors, artists, and enthusiasts
                             <br></br> who share a passion for one-of-a-kind digital.
                         </p>
-                        <button className="mt-2 bg-black text-white py-4 px-6 rounded-xl cursor-pointer btn-theme font-semibold">Join  Our Community</button>
+                        <button className="hover-change duration-500 mt-2 bg-black text-white py-4 px-6 rounded-xl cursor-pointer btn-theme font-semibold">Join  Our Community</button>
                     </div>
         </div>
     );

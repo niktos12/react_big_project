@@ -17,8 +17,8 @@ export function Presentation(){
                  <span className="text-[#141416] font-semibold text-theme-change"> $20 bonus.</span>
                 </p>
                 <div className="flex flex-row gap-5 mb-16 xm:mb-5">
-                    <button className="rounded-lg py-3 px-6 bg-black text-white uppercase text-base font-medium btn-theme">Explore more</button>
-                    <button className="rounded-lg py-3 px-5 bg-[#F9F9F9] text-black uppercase border border-black text-base font-medium">Create nft</button>
+                    <button className="rounded-lg py-3 px-6 bg-black text-white uppercase text-base font-medium btn-theme hover-change duration-500">Explore more</button>
+                    <button className="hover:bg-[#615c5c] hover:text-white duration-500 rounded-lg py-3 px-5 bg-[#F9F9F9] text-black uppercase border border-black text-base font-medium">Create nft</button>
                 </div>
                 <div className="flex flex-row gap-11 xm:hidden">
                     <div className="">

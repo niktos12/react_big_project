@@ -83,7 +83,7 @@ export function SwiperWeeklyTop(){
                                 <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="hover:bg-[#E6E8EC] hover:text-[#141416] duration-500 uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
                     </div>
                 </div>
                 
@@ -101,7 +101,7 @@ export function SwiperWeeklyTop(){
                                 <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="hover:bg-[#E6E8EC] hover:text-[#141416] duration-500 uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
                     </div>
                 </div>
             </SwiperSlide>
@@ -118,7 +118,7 @@ export function SwiperWeeklyTop(){
                                 <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="hover:bg-[#E6E8EC] hover:text-[#141416] duration-500 uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
                     </div>
                 </div>
             </SwiperSlide>
@@ -135,7 +135,7 @@ export function SwiperWeeklyTop(){
                                 <p className="text-base font-medium text-[#141416]">1.25</p>
                             </div>  
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="hover:bg-[#E6E8EC] hover:text-[#141416] duration-500 uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
                     </div>
                 </div>
             </SwiperSlide>
@@ -152,7 +152,7 @@ export function SwiperWeeklyTop(){
                                 <p className="text-base font-medium text-[#141416]">1.25</p>
                             </div>  
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="hover:bg-[#E6E8EC] hover:text-[#141416] duration-500 uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
                     </div>
                 </div>
             </SwiperSlide>  
@@ -169,7 +169,7 @@ export function SwiperWeeklyTop(){
                                 <p className="text-base font-medium text-[#141416]">1.75</p>
                             </div>  
                         </div>
-                        <button className="uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
+                        <button className="hover:bg-[#E6E8EC] hover:text-[#141416] duration-500 uppercase bg-[#141416] text-white text-sm font-semibold py-4 px-6 rounded-2xl ml-8">place bid</button>
                     </div>
                 </div>
             </SwiperSlide>
