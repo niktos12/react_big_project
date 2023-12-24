@@ -12,7 +12,7 @@ export function Collector(){
                 </button>
             </div>
             <div className="">
-                <ImageComponent path="/CollectorImg.png" className="h-[613px] xl:w-[653px] lg:w-full sm:max-w-[450px] sm:max-h-[400px] xm:max-w-[400px] xm:max-h-[400px]"></ImageComponent>
+                <ImageComponent path="/CollectorImg.png" className="h-[613px] xl:w-[653px] lg:w-full sm:max-w-[450px] sm:max-h-[400px] xm:max-w-[350px] xm:max-h-[350px]"></ImageComponent>
             </div>
         </div>
     ); 
