@@ -63,29 +63,29 @@ body {
   height: 65px;
 }
 .dark{
-  background: #1f1f1f !important;
+  background: #1f1f1f;
   color: #fff;
 }
 .dark-theme{
-  background: #1f1f1f !important;
+  background: #1f1f1f ;
 }
 .dark-text{
-  color: #fff !important;
+  color: #fff ;
 }
 .dark-btn{
-  background: #FFFFFF !important;
+  background: #FFFFFF ;
   color: #141416;
 }
 .hover-change:hover{
-  background-color: #E6E8EC !important;
+  background-color: #E6E8EC ;
   color: #141416;
 }
 .dark-hover:hover{
-  background-color: #615c5c !important;
+  background-color: #615c5c ;
   color: #fff;
 }
 .dark-border{
-  border-color: #F1F1F1 !important;
+  border-color: #F1F1F1 ;
 }
 html{
   scroll-behavior: smooth;
