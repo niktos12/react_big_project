@@ -29,7 +29,7 @@ export function Header(){
 
     useEffect(() => {
         document.body.className = theme;
-        document.querySelector('.swiper-bg-change')?.classList.toggle('dark-theme')
+        // document.querySelector('.swiper-bg-change').classList.toggle('dark-theme')
         document.querySelectorAll('.text-theme-change').forEach(el => el.classList.toggle('dark-text'));
         document.querySelectorAll('.hover-change').forEach(el => el.classList.toggle('dark-hover'));
         document.querySelectorAll('.btn-theme').forEach(el => el.classList.toggle('dark-btn'));
